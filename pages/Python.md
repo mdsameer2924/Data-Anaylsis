@@ -1,0 +1,6 @@
+- Python shell
+-
+- Type error #error
+- NameError #error
+- LATER sdf
+- LATER / dsf
