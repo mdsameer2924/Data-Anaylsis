@@ -12,4 +12,4 @@ arr2=arr2.reshape(5,4) ## multiply only possible when one array is 5,4 second mu
 
 multi_of_matrices=np.dot(arr1,arr2)
 print(multi_of_matrices)
-np.savetxt("testing_data.txt",multi_of_matrices,'%.2e')
+np.savetxt("../testing_data.txt",multi_of_matrices,'%.2e')
