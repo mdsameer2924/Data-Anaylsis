@@ -1,7 +1,6 @@
 # It's time to more solidfy creating an array concepts in numpy
 ''' 
-🔹 4d Array
-🔹 5d Array
+🔹 4d Array ✔️
 '''
 
 '''  4d Array shape must be (3,2,4,2)
