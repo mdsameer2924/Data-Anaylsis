@@ -4,5 +4,5 @@
 🔹 3-D Array
 '''
 import numpy as np
-onedarray=np.onedarray([1,2,3,4,5]) # how to create an array in numpy ? stuck
+onedarray=np.array([1,2,3,4,5]) # how to create an array in numpy ? stuck
 print(onedarray)
