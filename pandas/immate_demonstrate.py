@@ -42,12 +42,11 @@ print(gathtered)
 # gathtered.to_csv("Gathered.csv",index=False)
 
 gathtered.to_csv("Gathered.csv",index_label="serial no.")
-# ----------------------------------------------------------------
+
 read1=pd.read_csv("Gathered.csv",index_col='serial no.',
                   usecols=['serial no.','0','1','2','3'],
                   nrows=2)                                        #nrows is  to set limit of data you want
                                                                     #to resize
-#-----------------------------------------------------------------
 print(read1)
 
 ## to show only columns
