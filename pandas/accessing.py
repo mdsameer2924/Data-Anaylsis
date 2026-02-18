@@ -20,4 +20,4 @@ print("Series Turned into array ",array)
 print("NOW IT's TYPE: ",type(array))
 
 # To apply Operatiuon whole value fucntoin(lamda parmeter:expression)
-print(series.apply(lambda x:x**2))
+print(series.apply(lambda x:x**2 if x%2==0 else x**3))
